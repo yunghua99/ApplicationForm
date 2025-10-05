@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--網頁編碼-->
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <title class="tittle">張泳樺申請履歷</title>
+    <link rel="stylesheet" type="text/css" href="履歷.css" />
+  </head>
+  <body>
+    <div class="tittle"><h1>WeHelp 申請履歷</h1></div>
+    <div class="subtittle-img">
+      <img src="下載.png" width="30" onclick="changemenu(this);"></div>
+    </div>
+    <div class="subtittle">
+      <div
+        class="sub"
+        data-param="about"
+        onmouseover="over(this);"
+        onmouseout="out(this);"
+        onclick="changetext(this);"
+      >
+        關於我
+      </div>
+      <div
+        class="sub"
+        data-param="exp"
+        onmouseover="over(this);"
+        onmouseout="out(this);"
+        onclick="changetext(this);"
+      >
+        個人經歷
+      </div>
+      <div
+        class="sub"
+        data-param="schedule"
+        onmouseover="over(this);"
+        onmouseout="out(this);"
+        onclick="changetext(this);"
+      >
+        時間規劃
+      </div>
+      <div
+        class="sub"
+        data-param="result"
+        onmouseover="over(this);"
+        onmouseout="out(this);"
+        onclick="changetext(this);"
+      >
+        投入成果
+      </div>
+      <div
+        class="sub"
+        data-param="bad"
+        onmouseover="over(this);"
+        onmouseout="out(this);"
+        onclick="changetext(this);"
+      >
+        負面情緒
+      </div>
+      <div
+        class="sub"
+        data-param="reflection"
+        onmouseover="over(this);"
+        onmouseout="out(this);"
+        onclick="changetext(this);"
+      >
+        技術心得
+      </div>
+      <div
+        class="sub"
+        data-param="ai"
+        onmouseover="over(this);"
+        onmouseout="out(this);"
+        onclick="changetext(this);"
+      >
+        人工智慧
+      </div>
+      <div
+        class="sub"
+        data-param="say"
+        onmouseover="over(this);"
+        onmouseout="out(this);"
+        onclick="changetext(this);"
+      >
+        想說的話
+      </div>
+    </div>
+    <div class="content" id="about">
+      <h2>個人簡介和申請動機</h2>
+      <div>
+        <p>
+          我是張泳樺，畢業於彰師數學系中興統計所，
+          畢業後在一間公司做過AI導入相關專案，
+          主要是琢磨在數據類型的FDC演算法開發， 但因為公司尚在轉型階段，
+          所以開發模式為個人電腦配上excel導案的離線開發為主
+        </p>
+        <p>
+          當我想要靠跳巢換取更好得公司福利時， 發現市場上的AI科技以日新月異，
+          和我畢業後所學相差甚遠， 也因為基於地緣關係，
+          發現所處地區的徵才都以系統設計和後端為主，
+          AI也已經轉變以生成式AI為主流的市場，
+          因此轉職非常之路非常受挫，因此想增加自我的前後端串聯部屬技能，未來能成為後端工程師。
+        </p>
+      </div>
+    </div>
+    <div class="content" id="exp">
+      <h2>曾經做過哪些軟體工程技術相關的學習？若有作品請分享給我們</h2>
+      <div>
+        <p>
+          目前在公司主要被賦予的任務是生產系統平台，串接mes系統和機台的alarm資訊。主要負責後端的資料庫串接，並進行資料庫維護；
+          另外前端方面，則是利用finereport的報表開發，彙整產線的機台資訊，即時呈現機台異常，產品的入料和或資訊給現場人員。
+        </p>
+        <p>
+          在智能轉型方面，主要以開發機台異常偵測的演算法，
+          利用SPC的機台製程資訊，以統計方法計算綜合指標呈現在前端；也參與過動態的SPC管制線調整的專案，以偏態、斜率等方法，
+          解決非常態行分布的製程資料問題。
+        </p>
+        <p>
+          在這些專案中，我主要的開發絕大部分都為python，在串接資料庫方面則是以postgre
+          sql來進行開發。
+        </p>
+      </div>
+    </div>
+    <div class="content" id="schedule">
+      <h2>如果參與這個訓練，會怎麼安排學習時間？</h2>
+      <div>
+        目前計畫的時間規劃為每天下班後，視下班時間進行1~3小時不等的進修，主要的研究時間希望放在假日，
+        在假日早上、晚上進行專案開發，下午則能安心進行休閒活動。
+        希望能以增加人力銀行上系統開發工程師包含後端java、維護、部署等技能。
+      </div>
+    </div>
+    <div class="content" id="result">
+      <h2>軟體技術日新月異，如何確定投入的領域是正確有回報的？</h2>
+      <div>
+        期望再參與訓練後，能對於履歷的系統開發更有概念，能有一個雛形的想法，
+        且針對未來可能面臨的問題持續吸取新知，
+        用能和業界搞領域並駕齊驅的方法，解決可能的問題。
+        在開發、部署、優化、維護上能更有概念，且選擇一個領域能在未來持續自我精進。
+      </div>
+    </div>
+    <div class="content" id="bad">
+      <h2>請描述一件產生明顯負面情緒的經歷，如何處理該情緒？</h2>
+      <div>
+        曾經因為在公司被指定希望能用AI方式而減少人為的介入，導入排成演算法，
+        嘗試了基因演算法，但因為實際使用排程複雜，且排貨量過多，
+        所以造成演算法運行時間過久，因此很受挫。
+        上班時間很認真從網上收集資料希能能從傳統方法中進行一點點運時時間優化並增加新穎性，偶爾也會找以前相同領域的同學問問他們的作法，也持續在現有的作法上優畫希望符合公司目標。直到最近有了一點點突破，因為和使用者更頻繁的溝通討論，轉而從多目標方式著手。
+      </div>
+    </div>
+    <div class="content" id="reflection">
+      <h2>關於這份申請網頁，分享一個開發時的技術心得。</h2>
+      <div>前陣子換了領域，因此在公司負責利用finereort開發前端的報表網頁，
+        這是一個透過GUI就可以完成公司大部分網頁開發工項的軟體
+        ，因為在這之前沒有接觸過網頁前端與後端的開發經驗，因此覺得這個軟體很方便開發起來也還算好上手，
+        但當遇到使用者想要加入更多元的功能時，往往也受限於finreport的規範，而需要更多的網頁知識才能補足，這段時間聽完這一系列課程時，
+        在工作中遇到這些需求時，也漸漸能加入js、css、html的語法來做更多的彈性設計。</div>
+    </div>
+    <div class="content" id="ai">
+      <h2>如何看待人工智慧的發展對軟體工程師的影響？</h2>
+      <p>
+        <p>身為一名資淺且技術底質不夠厚實的軟體工程師，對於人工智慧真是又愛又怕。工作時，遇到很多問題，往往能透過gpt去了解如何突破這些困境，
+        解決一些問題，小至語法的搜尋，大至整個架構的調整的建議，尤其是在debug時更是一個快速有用的工具。</p>
+        <p>但是同時在使用工具時，也會有所質疑，當工具這麼方便，自己在資訊這方面的貢獻則越低，也會懷疑自我的價值，是不是在一段短短的時間內，自己可能就會被取代，因此想利用這個機會，加強自我本身的資訊領域技能，更能找出一個未來發展的方向，努力向前</p>
+      </div>
+    </div>
+    <div class="content" id="say">
+      <h2>其他想要對我們說的事情？</h2>
+      <div>
+        希望透過這次的活動，不僅僅能增進在資訊上面的關於前後端(html、css、javascript)的背景知識，也能藉由這個訓練的機會，了解現有關於軟體工程師自學所需涵蓋的其他技能，和正確的開發流程，讓未來的轉職之路更順利。
+      </div>
+    </div>
+    <script>
+      function changemenu(elem) {
+        const subtitles = document.querySelectorAll(".subtittle");
+          subtitles.forEach((c) => {
+          c.style.display = "block"; // 把全部隱藏
+          //c.style.whiteSpace = "nowrap"; // 讓字體不要換行
+        });
+      }
+      function over(elem) {
+        if (!elem.classList.contains("active")) {
+          elem.style.backgroundColor = "#ddaaaa";
+          elem.style.fontWeight = "bold";
+        }
+      }
+      function out(elem) {
+        if (!elem.classList.contains("active")) {
+          elem.style.fontWeight = "normal";
+          elem.style.backgroundColor = "rgb(233, 181, 157)";
+        }
+        if (elem.classList.contains("active")) {
+          elem.style.fontWeight = "bold";
+          elem.style.backgroundColor = "#ddaaaa";
+        }
+      }
+      function changetext(elem) {
+        const param = elem.dataset.param;
+        const target = document.getElementById(param);
+        const contents = document.querySelectorAll(".content");
+        const subtitles = document.querySelectorAll(".sub");
+
+        subtitles.forEach((c) => {
+          c.classList.remove("active");
+          out(c);
+          console.log(c);
+        });
+        elem.classList.add("active");
+        over(elem);
+
+        contents.forEach((c) => {
+          c.style.display = "none"; // 把全部隱藏
+        });
+        target.style.display = "block";
+      }
+    </script>
+  </body>
+</html>

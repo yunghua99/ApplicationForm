@@ -1,0 +1,68 @@
+.tittle {
+  text-align: center;
+  font-size: larger;
+  background-color: rgba(214, 208, 211, 0.836);
+}
+.subtittle-img {
+  display: none;
+}
+
+.subtittle {
+  display: flex;
+  background-color: rgb(233, 181, 157);
+  border-radius: 5px;
+}
+.sub {
+  flex: none;
+  width: 12.5%;
+  text-align: center;
+  cursor: pointer;
+}
+.content {
+  display: none;
+  text-indent: 2em;
+  word-wrap: break-word;
+  line-height: 1.6;
+  margin: 40px;
+}
+
+.sub.active {
+  background-color: #ddaaaa;
+  font-weight: bold;
+}
+
+#about {
+  display: block;
+  text-indent: 2em;
+  word-wrap: break-word;
+  line-height: 1.6;
+  margin: 40px;
+}
+
+@media (max-width: 500px) {
+  /* 螢幕寬度小於1250 則套用這個css 適合所有手機 且順序不可交換 最小手機360*/
+  .tittle {
+    font-size: 20px;
+  }
+  .subtittle-img {
+    display: flex;
+  }
+  .subtittle {
+    /*text-align: center;*/
+    display: none;
+    white-space: nowrap; /* 不換行 */
+    text-align: center; /* 文字置中 */
+    margin: 5px 0;
+    /* //顯示 */
+  }
+  .sub {
+    flex: none;
+    width: 100%;
+    text-align: center;
+  }
+  .content {
+    text-align: center;
+    display: none;
+    /* //顯示 */
+  }
+}
